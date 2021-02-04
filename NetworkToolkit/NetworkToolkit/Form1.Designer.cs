@@ -44,7 +44,7 @@
             // guna2GradientButton2
             // 
             this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton2.BorderColor = System.Drawing.Color.Silver;
             this.guna2GradientButton2.BorderRadius = 8;
             this.guna2GradientButton2.BorderThickness = 1;
             this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
@@ -61,11 +61,12 @@
             this.guna2GradientButton2.Size = new System.Drawing.Size(272, 148);
             this.guna2GradientButton2.TabIndex = 1;
             this.guna2GradientButton2.Text = "Υπολογισμός Πλήρης Ταχύτητας Σύνδεσης";
+            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // guna2GradientButton3
             // 
             this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton3.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton3.BorderColor = System.Drawing.Color.Silver;
             this.guna2GradientButton3.BorderRadius = 8;
             this.guna2GradientButton3.BorderThickness = 1;
             this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
@@ -82,11 +83,12 @@
             this.guna2GradientButton3.Size = new System.Drawing.Size(272, 148);
             this.guna2GradientButton3.TabIndex = 2;
             this.guna2GradientButton3.Text = "Υπολογισμός RTT με Jacobson";
+            this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
             // 
             // guna2GradientButton5
             // 
             this.guna2GradientButton5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton5.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton5.BorderColor = System.Drawing.Color.Silver;
             this.guna2GradientButton5.BorderRadius = 8;
             this.guna2GradientButton5.BorderThickness = 1;
             this.guna2GradientButton5.CheckedState.Parent = this.guna2GradientButton5;
@@ -103,11 +105,12 @@
             this.guna2GradientButton5.Size = new System.Drawing.Size(272, 148);
             this.guna2GradientButton5.TabIndex = 4;
             this.guna2GradientButton5.Text = "Υπολογισμός Πλήρης Ταχύτητας Σύνδεσης";
+            this.guna2GradientButton5.Click += new System.EventHandler(this.guna2GradientButton5_Click);
             // 
             // guna2GradientButton6
             // 
             this.guna2GradientButton6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton6.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton6.BorderColor = System.Drawing.Color.Silver;
             this.guna2GradientButton6.BorderRadius = 8;
             this.guna2GradientButton6.BorderThickness = 1;
             this.guna2GradientButton6.CheckedState.Parent = this.guna2GradientButton6;
@@ -124,6 +127,7 @@
             this.guna2GradientButton6.Size = new System.Drawing.Size(272, 148);
             this.guna2GradientButton6.TabIndex = 5;
             this.guna2GradientButton6.Text = "Υπολογισμός Μέγιστου Πλήθους Υπολογιστών  (Με Μασκα)";
+            this.guna2GradientButton6.Click += new System.EventHandler(this.guna2GradientButton6_Click);
             // 
             // guna2Panel1
             // 
@@ -162,7 +166,7 @@
             // guna2GradientButton1
             // 
             this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.BorderColor = System.Drawing.Color.Silver;
             this.guna2GradientButton1.BorderRadius = 8;
             this.guna2GradientButton1.BorderThickness = 1;
             this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
@@ -179,11 +183,12 @@
             this.guna2GradientButton1.Size = new System.Drawing.Size(272, 149);
             this.guna2GradientButton1.TabIndex = 6;
             this.guna2GradientButton1.Text = "Υπολογισμός Παραθυρου Συμφόρησης";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2GradientButton4
             // 
             this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton4.BorderColor = System.Drawing.Color.Silver;
             this.guna2GradientButton4.BorderRadius = 8;
             this.guna2GradientButton4.BorderThickness = 1;
             this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
@@ -200,6 +205,7 @@
             this.guna2GradientButton4.Size = new System.Drawing.Size(272, 149);
             this.guna2GradientButton4.TabIndex = 7;
             this.guna2GradientButton4.Text = "Υπολογισμός collision detection με CSMA/CD";
+            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // Form1
             // 
