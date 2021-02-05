@@ -35,8 +35,8 @@
             this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +58,7 @@
             this.guna2GradientButton2.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Size = new System.Drawing.Size(272, 148);
+            this.guna2GradientButton2.Size = new System.Drawing.Size(250, 87);
             this.guna2GradientButton2.TabIndex = 1;
             this.guna2GradientButton2.Text = "Υπολογισμός Πλήρης Ταχύτητας Σύνδεσης";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
@@ -77,10 +77,10 @@
             this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(281, 3);
+            this.guna2GradientButton3.Location = new System.Drawing.Point(259, 3);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
             this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Size = new System.Drawing.Size(272, 148);
+            this.guna2GradientButton3.Size = new System.Drawing.Size(251, 87);
             this.guna2GradientButton3.TabIndex = 2;
             this.guna2GradientButton3.Text = "Υπολογισμός RTT με Jacobson";
             this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
@@ -99,10 +99,10 @@
             this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton5.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton5.HoverState.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.Location = new System.Drawing.Point(281, 157);
+            this.guna2GradientButton5.Location = new System.Drawing.Point(259, 96);
             this.guna2GradientButton5.Name = "guna2GradientButton5";
             this.guna2GradientButton5.ShadowDecoration.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.Size = new System.Drawing.Size(272, 148);
+            this.guna2GradientButton5.Size = new System.Drawing.Size(251, 87);
             this.guna2GradientButton5.TabIndex = 4;
             this.guna2GradientButton5.Text = "Υπολογισμός Πλήρης Ταχύτητας Σύνδεσης";
             this.guna2GradientButton5.Click += new System.EventHandler(this.guna2GradientButton5_Click);
@@ -121,10 +121,10 @@
             this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton6.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton6.HoverState.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Location = new System.Drawing.Point(3, 157);
+            this.guna2GradientButton6.Location = new System.Drawing.Point(3, 96);
             this.guna2GradientButton6.Name = "guna2GradientButton6";
             this.guna2GradientButton6.ShadowDecoration.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Size = new System.Drawing.Size(272, 148);
+            this.guna2GradientButton6.Size = new System.Drawing.Size(250, 87);
             this.guna2GradientButton6.TabIndex = 5;
             this.guna2GradientButton6.Text = "Υπολογισμός Μέγιστου Πλήθους Υπολογιστών  (Με Μασκα)";
             this.guna2GradientButton6.Click += new System.EventHandler(this.guna2GradientButton6_Click);
@@ -139,7 +139,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(556, 463);
+            this.guna2Panel1.Size = new System.Drawing.Size(513, 280);
             this.guna2Panel1.TabIndex = 6;
             // 
             // tableLayoutPanel1
@@ -160,30 +160,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(556, 463);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(513, 280);
             this.tableLayoutPanel1.TabIndex = 6;
-            // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderColor = System.Drawing.Color.Silver;
-            this.guna2GradientButton1.BorderRadius = 8;
-            this.guna2GradientButton1.BorderThickness = 1;
-            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.LightGray;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Gainsboro;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(281, 311);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(272, 149);
-            this.guna2GradientButton1.TabIndex = 6;
-            this.guna2GradientButton1.Text = "Υπολογισμός Παραθυρου Συμφόρησης";
-            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2GradientButton4
             // 
@@ -199,13 +177,35 @@
             this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton4.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(3, 311);
+            this.guna2GradientButton4.Location = new System.Drawing.Point(3, 189);
             this.guna2GradientButton4.Name = "guna2GradientButton4";
             this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Size = new System.Drawing.Size(272, 149);
+            this.guna2GradientButton4.Size = new System.Drawing.Size(250, 88);
             this.guna2GradientButton4.TabIndex = 7;
             this.guna2GradientButton4.Text = "Υπολογισμός collision detection με CSMA/CD";
             this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
+            // 
+            // guna2GradientButton1
+            // 
+            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.BorderColor = System.Drawing.Color.Silver;
+            this.guna2GradientButton1.BorderRadius = 8;
+            this.guna2GradientButton1.BorderThickness = 1;
+            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.LightGray;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Gainsboro;
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
+            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(259, 189);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Size = new System.Drawing.Size(251, 88);
+            this.guna2GradientButton1.TabIndex = 6;
+            this.guna2GradientButton1.Text = "Υπολογισμός Παραθυρου Συμφόρησης";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // Form1
             // 
@@ -213,7 +213,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(556, 463);
+            this.ClientSize = new System.Drawing.Size(513, 280);
             this.Controls.Add(this.guna2Panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
